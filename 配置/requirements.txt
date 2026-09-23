@@ -1,0 +1,5 @@
+# 作业批改工具集依赖（Python 3.14 环境）
+# 安装：python -m pip install -r requirements.txt
+Pillow>=11.3        # 图片处理（缩放/压缩/标注合成），必需
+pillow-heif>=0.20   # HEIC/HEIF 转 JPG，可选（无 HEIC 需求可注释掉）
+tkinterdnd2>=0.4    # 监视器拖放导入（外部图片拖入卡片），可选（不装则拖放不可用，其余正常）
